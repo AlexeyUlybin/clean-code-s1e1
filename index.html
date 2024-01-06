@@ -26,7 +26,7 @@
         <div class="task-wrapper">
           <input
             id="new-task"
-            class="task"
+            class="task new-task"
             type="text"
           >
           <button>Add</button>
@@ -48,20 +48,20 @@
         </li>
         <li class="edit-mode">
           <input type="checkbox">
-            <label class="task">Go Shopping</label>
-            <input
-              type="text"
-              value="Go Shopping"
-              class="task"
-            >
-            <button class="edit">Save</button>
-            <button class="delete">
-              <img src="./remove.svg">
-            </button>
+          <label class="task">Go Shopping</label>
+          <input
+            type="text"
+            value="Go Shopping"
+            class="task"
+          >
+          <button class="edit">Save</button>
+          <button class="delete">
+            <img src="./remove.svg">
+          </button>
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
+      <ul id="completed-tasks" class="completed-tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
